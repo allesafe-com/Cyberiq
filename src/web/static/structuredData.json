@@ -1,0 +1,23 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://gchq.github.io/Cyberiq/",
+        "logo": "https://gchq.github.io/Cyberiq/images/cyberiq-128x128.png",
+        "sameAs": [
+            "https://github.com/gchq/Cyberiq",
+            "https://www.npmjs.com/package/cyberiq"
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://gchq.github.io/Cyberiq/",
+        "name": "Cyberiq",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://gchq.github.io/Cyberiq/?op={operation_search_term}",
+            "query-input": "required name=operation_search_term"
+        }
+    }
+]
